@@ -1,0 +1,51 @@
+# Python
+*.py[cod]
+*$py.class
+*.so
+__pycache__/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Data files (OPTIONAL - see notes below)
+# Uncomment if your CSV files are too large (>100MB) or contain sensitive data
+# *.csv
+# content/
+
+# Model files (OPTIONAL - see notes below)
+# Uncomment if model files are too large (>100MB)
+# *.pkl
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Environment variables
+.env
+.env.local
